@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IMovie</string>
+    <string name="popularMovies">Popular</string>
+    <string name="popular">Popular</string>
+    <string name="nowplaying">Now Playing</string>
+    <string name="toprated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="facebook_app_id" translatable="false">237525440775375</string>
+    <string name="fb_login_protocol_scheme" translatable="false">d698350098bc118653135606e98fdc33</string>
+    <string name="success">Successfully Logged Out</string>
+    <string name="notification">Notification</string>
+    <string name="info">Info</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="setting">Setting</string>
+    <string name="register_an_account">Register An Account</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="google_gmail">Google Gmail</string>
+    <string name="log_out">Log Out</string>
+    <string name="vote_average">average vote</string>
+    <string name="language">Language</string>
+    <string name="budget">budget</string>
+    <string name="popularity">popularity</string>
+    <string name="register">Register</string>
+    <string name="login_here">"Login "</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

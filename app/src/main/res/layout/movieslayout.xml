@@ -1,0 +1,45 @@
+<layout>
+    <data>
+        <variable
+            name="listener"
+            type="taki.eddine.myapplication.movieslisteners.MovieListener" />
+        <variable
+            name="model"
+            type="taki.eddine.myapplication.datamodels.MoviesDataModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:onClick="@{() -> listener.SendMovieID(model)}"
+        android:layout_height="260dp"
+        android:layout_margin="4dp">
+
+
+        <ImageView
+            android:id="@+id/popularmoviesimg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:PlayNowImg="@{model.movie_poster}"
+            app:layout_constraintBottom_toTopOf="@+id/popularmoviestext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/popularmoviestext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@{model.title}"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

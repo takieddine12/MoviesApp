@@ -1,0 +1,24 @@
+<layout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/popularmoviesrecycler"
+            android:scrollbars="vertical"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar1"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="25dp"
+            android:visibility="gone"
+            android:indeterminateTint="@android:color/holo_red_dark"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

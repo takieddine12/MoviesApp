@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMovie</string>
+    <string name="popularMovies">Populaire</string>
+    <string name="popular">Populaire</string>
+    <string name="nowplaying">En direct</string>
+    <string name="notification">Notification</string>
+    <string name="info">Information</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="setting">Parametres</string>
+    <string name="register_an_account">Enregistrez !</string>
+    <string name="forgot_password">mot de passe oublié</string>
+    <string name="login_here">Connectez ici</string>
+    <string name="register">Enregister</string>
+    <string name="popularity">Popularité</string>
+    <string name="budget">budget</string>
+    <string name="language">Langue</string>
+    <string name="vote_average">vote moyen</string>
+    <string name="log_out">deconnecter</string>
+    <string name="success">" Déconnexion réussie"</string>
+    <string name="login">Connecter</string>
+    <string name="toprated">Mieux notés</string>
+    <string name="upcoming">A venir</string>
+    <string name="google_gmail">Google Gmail</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+</resources>
